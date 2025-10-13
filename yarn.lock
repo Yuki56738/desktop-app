@@ -279,6 +279,11 @@
     glob "^7.1.6"
     minimatch "^3.0.4"
 
+"@electron/build-tools@^2.1.1":
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/@electron/build-tools/-/build-tools-2.1.1.tgz#c4f627c484d61fa0c6beac863f027330436984ee"
+  integrity sha512-a5HTM7CvUPZmppz8XWrdOwiqbEMRIQVFHd8RGttbBXPqB4OcRd8DF18GpdWRIKrniiv4szslnaz/jd1G673btw==
+
 "@electron/fuses@^1.0.0":
   version "1.8.0"
   resolved "https://registry.yarnpkg.com/@electron/fuses/-/fuses-1.8.0.tgz#ad34d3cc4703b1258b83f6989917052cfc1490a0"
@@ -2317,7 +2322,7 @@ electron-winstaller@^5.3.0:
   optionalDependencies:
     "@electron/windows-sign" "^1.1.2"
 
-electron@38.2.2:
+electron@^38.2.2:
   version "38.2.2"
   resolved "https://registry.yarnpkg.com/electron/-/electron-38.2.2.tgz#117a516fa2215604e35a60f3cc2543f3f5404a16"
   integrity sha512-OXSaVNXDlonXDjMRsFNQo1j5tzTKwKXh5/m46IjAFccBcZJZMISI+EjSI07oexIuhvKM8AZLuFuihVn4YjWWrA==
@@ -3068,6 +3073,11 @@ gar@^1.0.4:
   resolved "https://registry.yarnpkg.com/gar/-/gar-1.0.4.tgz#f777bc7db425c0572fdeb52676172ca1ae9888b8"
   integrity sha512-w4n9cPWyP7aHxKxYHFQMegj7WIAsL/YX/C4Bs5Rr8s1H9M1rNtRWRsw+ovYMkXDQ5S4ZbYHsHAPmevPjPgw44w==
 
+gclient@^0.0.0:
+  version "0.0.0"
+  resolved "https://registry.yarnpkg.com/gclient/-/gclient-0.0.0.tgz#e4f1a225fc7d9e48d83d9da2c7e399da070b9511"
+  integrity sha512-5uNt38rXJ79eu0M0JjFNOnThEiOMpJ0PYCpQVs4s0HptaqFJ/dGU6DMU3YRYLSSaZ36T0Ayef+/K2uJ1nmPg1A==
+
 generator-function@^2.0.0:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/generator-function/-/generator-function-2.0.1.tgz#0e75dd410d1243687a0ba2e951b94eedb8f737a2"
@@ -3235,6 +3245,11 @@ globby@^11.1.0:
     ignore "^5.2.0"
     merge2 "^1.4.1"
     slash "^3.0.0"
+
+gn@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/gn/-/gn-3.0.0.tgz#d278487f8d3259ea409d76a0a470849829db5733"
+  integrity sha512-6TLuBGYiOyScj9HdRfos2WF0kq4logl3QLWFyREqhd8aTh6ieF0o1ES+hIyMffm9cKZVBWbrwIJsOMzQRY4XAQ==
 
 gopd@^1.0.1, gopd@^1.2.0:
   version "1.2.0"
