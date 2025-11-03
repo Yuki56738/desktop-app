@@ -34,8 +34,16 @@ console.log(
 
 const input = document.getElementById('input') as HTMLInputElement;
 const button = document.getElementById('button');
+const output1 = document.getElementById('output1') as HTMLDivElement;
+
+input.addEventListener('input', () => {
+    output1.innerText = input.value
+})
 button?.addEventListener('click', () => {
     if (input) {
-        alert(input.value)
+        // alert(input.value)
+        output1.innerText = input.value
+        output1.style.color = 'blue';
     }
 })
+
